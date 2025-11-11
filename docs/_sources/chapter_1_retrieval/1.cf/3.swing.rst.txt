@@ -62,8 +62,8 @@ Swing score 的基础计算公式为：
    :width: 250px
 
    Swing Score 计算示意图
-
-
+.. figure:: ../_images/swing_score.svg
+   :width: 250px
 
 假设 :math:`\alpha = 1`\ ，那么：
 
@@ -101,7 +101,7 @@ Surprise算法从类别、商品和聚类三个层面来衡量互补相关性：
 
 **类别层面**
 
-在这一层面，我们利用商品与类别之间的映射关系构建user-category矩阵。基于这个矩阵，可以计算类别
+在这一层面，我们利用用户与类别之间的映射关系构建user-category矩阵。基于这个矩阵，可以计算类别
 :math:`i` 与类别 :math:`j` 之间的相关性：
 
 .. math::
